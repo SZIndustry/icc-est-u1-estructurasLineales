@@ -53,10 +53,10 @@ public class QueueG<T> {
         Nodo<T> aux = primero;
         System.out.print("Cola: ");
         while (aux != null) {
-            System.out.print(aux.valor + " -> ");
+            System.out.print(aux.valor + " | ");
             aux = aux.siguiente;
         }
-        System.out.println("null");
+        System.out.println();
     }
 
     public Persona findByName(String nombre) {
